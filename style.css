@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    background-color: #FFFFFF;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FF0043;
+}
+
+.menu-btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #FF0043;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    border-radius: 23px;
+    padding: 15px 21px;
+    text-decoration: none;
+    margin-left: 900px;
+}
+
+.menu-btn:hover {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content-text {
+    width: 552px;
+}
+
+.header-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 85px;
+    color: #00194A;
+}
+
+.header-desc {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+    padding-bottom: 50px;
+}
+
+.header-btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #FF0043;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    border-radius: 30px;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.header-btn:hover {
+    background-color: black;
+}
+
+.header-img {
+    margin-left: 40px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.download-container1, .download-container2, .download-container3 {
+    width: 360px;
+    margin-left: 100px;
+}
+
+.download-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #00194A;
+}
+
+.download-desc {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #00194A;
+    width: 300px;
+}
+
+.download-container-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.download-btn {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #00194A;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-container-img {
+
+}
+
+.message-img1 {
+
+}
+
+.message-img2 {
+
+}
+
+.message-content {
+
+}
+
+.message-title {
+
+}
+
+.message-desc {
+    
+}
